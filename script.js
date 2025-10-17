@@ -2,7 +2,7 @@ function addTask() {
     const taskInput = document.getElementById('taskInput');
     const taskText = taskInput.value.trim();
     
-    // Валидация - проверяем, что поле не пустое
+    // Валидация - проверяем,  что поле не пустое
     if (taskText === '') {
         alert('Введите текст задачи!');
         return;
